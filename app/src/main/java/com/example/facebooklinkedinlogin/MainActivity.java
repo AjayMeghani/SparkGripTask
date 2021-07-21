@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             startActivity(new Intent(MainActivity.this, gmail_userprofile.class));
             this.finish();
         }
-
+// textview
         TextView text_links = findViewById(R.id.link_texts);
         String text = "By clicking on login, you are accepting our privacy policy \nand terms & conditions.";
         SpannableString ss = new SpannableString(text);
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             handleSigninResult(task);
         }
     }
-
+// handle Google sign in
     private void handleSigninResult(Task<GoogleSignInAccount> result){
         try{
             GoogleSignInAccount account = result.getResult(ApiException.class);
