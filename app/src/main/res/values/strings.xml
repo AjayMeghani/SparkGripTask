@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Social Media Integration</string>
-    <string name="facebook_app_id">707579210106403</string>
-    <string name="fb_login_protocol_scheme">fb707579210106403</string>
+    <string name="facebook_app_id">835177647112933</string>
+    <string name="fb_login_protocol_scheme">fb835177647112933</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+
 </resources>

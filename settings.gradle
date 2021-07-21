@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Facebook & Linkedin Login"
+rootProject.name = "Facebook & Google Login"
